@@ -1,0 +1,111 @@
+.login{
+    min-height: calc(100vh + 100px);
+    background-color: #fff;
+    position: relative;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100vh 100px;
+
+    height: 100vh;
+    
+    /* justify-items: center; */
+    align-items: center;
+    
+}
+
+
+.login-footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.login-container{
+    position: relative;
+    width: 90%;
+    max-width: 350px;
+    min-height: 300px;
+    height: 70%;
+    justify-self: center;
+    background-color: #345692;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.login-container p{
+    text-align: center;
+}
+.login-container-form{
+    /* background-color: blue; */
+    height: 60%;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container-form label{
+    font-size: 3rem;
+    color: #FECA1B;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+input:focus {
+    outline:0;
+}
+
+input:active {
+    border: none;
+}
+
+.login-container-form-input{
+    border: none;
+    height: 25px;
+    padding: 0 10px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.login-container-form-submit{
+    /* width: 80px;
+    height: 25px; */
+    padding: 5px 30px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background: #FECA1B;
+    font-weight: bold;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.6);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.login-container-home{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    /* background-color: #fff; */
+    padding: 5px;
+    font-size: 1.6rem;
+    width: 50%;
+    color: #FECA1B;
+    margin: 0 auto;
+    border-radius: 50px;    
+}
+.login-container p{
+    color: #fff;
+}
+
+.login-container-redirect{
+    text-align: center;
+    text-decoration: none;
+    color: #FECA1B;
+    font-weight: bold;
+
+}

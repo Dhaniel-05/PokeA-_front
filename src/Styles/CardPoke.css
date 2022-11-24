@@ -1,0 +1,59 @@
+.cardpoke{
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.cardpoke-img{
+    width: 100%;
+    max-width: 250px;
+    max-height: 225px;
+    
+}
+.cardpoke-line{
+    width: 100%;
+    height: 1px;
+    margin: 2px 0;
+    background: #345692;
+}
+
+.cardpoke-info{
+    width: 100%;
+    padding: 20px;
+    /* background-color: red; */
+
+}
+
+.cardpoke-info p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FECA1B;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
+}
+
+.cardpoke-info-list{
+    list-style: none;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+
+.cardpoke-info-list li{
+    color: #000;
+}
