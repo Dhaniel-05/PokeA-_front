@@ -1,0 +1,2 @@
+ejecutar npm install
+luego para correr el proyecto npm start
